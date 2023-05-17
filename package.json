@@ -1,0 +1,26 @@
+{
+  "name": "ts-hw-javascript-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "build": "tsc",
+    "lint": "eslint ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/basiclightbox": "^5.0.1",
+    "@types/node": "^20.1.7",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.40.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "simplelightbox": "^2.14.0"
+  }
+}

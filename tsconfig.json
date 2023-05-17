@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "outDir": "dist",
+    "rootDir": "ts",
+    "strict": true,
+    "typeRoots": ["./typings", "./node_modules/@types"],
+    "moduleResolution": "node",
+     "paths": {
+      "basicLightbox": ["./node_modules/basiclightbox"]
+    }
+    
+  },
+  "include": [
+    "ts/**/*.ts"
+, "ts/typings/basicLightBox.d.ts" ,
+ ],
+
+  "exclude": [
+    "node_modules"
+  ]
+}
